@@ -90,6 +90,11 @@ main p{
 main img{
     width: 100%;
 }
+main img.MinImg{
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
 aside{
     background-color:var(--AsideColor);
     padding: 20px;
