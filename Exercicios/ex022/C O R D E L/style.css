@@ -60,6 +60,7 @@ section.imagem{
 }
 section.imagem#q1{
 background-image: url(IMG/imagens/background001.jpg);
+background-position: center right;
 }
 section.imagem#q2{
 background-image: url(IMG/imagens/background002.jpg);
