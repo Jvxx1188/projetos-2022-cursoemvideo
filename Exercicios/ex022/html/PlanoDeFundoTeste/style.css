@@ -5,12 +5,11 @@
 }
 *{margin: 0px;
 padding: 0px;}
+
 body{
-        background-size: 122vw;
-    background-image: url(https://wallpapercave.com/wp/wp5865057.png);
-    background-position: right   bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
+    background: black url(https://wallpapercave.com/wp/wp5865057.png) center center fixed;
+    background-size: cover;
 }
 header{
     color: rgb(0, 153, 255);
@@ -25,11 +24,12 @@ header h1{
     font-size: 50px;
 }
 main{
+    
     font-family: Arial, Helvetica, sans-serif;
-    max-width:  1000px;
+    max-width:  900px;
     margin: auto;
     color: rgb(0, 0, 0);
-    background-color: #a8ebff;
+    background-color: #ffffffd3;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 5px 5px 15px black;
@@ -41,4 +41,9 @@ main{
     line-height: 25px;
     text-indent: 40px;
     margin:15px  0px;
+}main img{
+    margin: auto;
+    display: block;
+    width: 100%;
+    position: top left;
 }
