@@ -44,6 +44,7 @@ section{
 }section p{
     display: inline-block;
     padding: 10px;
+    margin-bottom: 2em;
 }
 section.normal{
     background-color: white;
@@ -56,14 +57,16 @@ section.imagem{
     background-attachment: fixed;
     background-size: cover;
 }section.imagem p{
-    background-color: rgba(0, 0, 0, 0.388);
+    background-color: rgba(0, 0, 0, 0.515);
 }
-section.imagem#q1{
+section.imagem#img01{
 background-image: url(IMG/imagens/background001.jpg);
 background-position: center right;
+background-size: cover;
 }
-section.imagem#q2{
+section.imagem#img02{
 background-image: url(IMG/imagens/background002.jpg);
+background-size: cover;
 }
 footer{
     background-color: black;
