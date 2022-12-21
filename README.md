@@ -1,4 +1,4 @@
 # HTML-E-CSS
  
  em desenvolvimento
-<a href="#"></a>
+<a target="_blank" href="#"></a>
