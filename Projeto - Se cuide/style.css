@@ -1,27 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Seymour+One&display=swap');
 
-
-div.TwoCollumns{
-    columns: 3;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-div.TwoCollumns h1{
+:root{
+    --CorAzulClaro:#45BEFF;
+    --CorAzulDeFundo:#00A6FF;
+    --CorAzulMedio:#0085CC;
+    --CorAzulSemiEscuro:#256080;
+    --CorAzulEscuro:#005380;
+    --TextColor:#002130;
+    --LogoFont:"Rubik Bubbles";
+    --FeaturedFont:"Seymour One";
+}
+
+body{
+    background-color: var(--CorAzulClaro);
+}
+header h1{
+    color: white;
+    background-color: var(--CorAzulDeFundo);
+    border-radius: 0px 0px 100px 100px;
+
+    margin-bottom: 50px;
+    /*Text*/
+    font-family: var(--LogoFont);
+    font-size: 3em;
     text-align: center;
 
-    top: 50%;
-    left: 50%;
 }
-img.VerticalAllignKonteiner{
-    position: relative;
-    padding: 200px;
-}
-.VerticalAllign{
-    position:  absolute;
-    top: 50%;
-    left: 50%;
-}
-img.BoxImage{
-    margin: auto;
-    display: block;
-    width: 300px;
-    border: 2px solid black;
+
+main{
+    background-color: white;
+    max-width: 90vw;
+    margin:auto auto 40px auto;
+    padding: 16px;
     border-radius: 30px;
+    /*Text*/
+    font-size: 1.1em;
+    text-indent: 24px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+main h1,h2,h3{
+    margin: 16px 0px;
+}
+
+main p{
+    color: var(--TextColor);
+}
+main h1{
+    color: var(--CorAzulEscuro);
+}
+main h2,h3{
+    color: var(--CorAzulSemiEscuro);
+    
+}
+footer{
+    background-color: white;
+    color: var(--TextColor);
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: center;
+}
+footer a{
+    color: green;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1em;
 }
